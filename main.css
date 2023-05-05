@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 .container .navbar ul {
   display: flex;
@@ -71,7 +72,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px 20px;
 }
 .container .container-body-left-column-text-title {
   font-size: 40px;
@@ -82,8 +83,21 @@
 .container .container-body-left-column-text-job {
   font-size: 30px;
 }
+.container .container-body-left-column-text-about-title {
+  font-size: 40px;
+  font-weight: 500;
+}
+.container .container-body-left-column-text-about-context {
+  font-size: 19px;
+  font-weight: 500;
+  text-indent: 20px;
+  text-align: justify;
+}
+.container .container-body-left-column-text-about-context span {
+  font-weight: bold;
+}
 .container .container-body-left-column-text p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .container .container-body-right-column {
   display: flex;
@@ -93,6 +107,6 @@
   width: 50%;
 }
 .container .container-body-right-column img {
-  width: 75%;
+  width: 70%;
   border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */
